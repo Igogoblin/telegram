@@ -42,11 +42,10 @@ for (let i = 0; i < myD.messages.length; i++) {
 
 const persons = document.querySelector(".persons");
 const table = document.querySelector(".table");
-// persons.innerHTML = `
-// ${val.name} количество сообщений ${val.messages} количество символов ${val.sym} <br>
-// ${ih.name} количество сообщений ${ih.messages} количество символов ${ih.sym} <br>
-// ${sans.name} количество сообщений ${sans.messages} количество символов ${sans.sym} <br>
-// ${all.name} количество сообщений ${all.messages} количество символов ${all.sym} <br>`;
+const lastDate = document.querySelector(".lastDate");
+console.log(myD.messages[myD.messages.length - 1].date);
+lastDate.textContent = myD.messages[myD.messages.length - 1].date;
+
 let text = `<tr><td></td><td>сообщений</td><td>% сообщений</td><td>символов</td><td>% символов</td></tr>`;
 let text1 = `<tr><td>${val.name} </td><td>${val.messages}</td><td>${(
   100 /
