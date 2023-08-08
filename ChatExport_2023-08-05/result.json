@@ -49041,6 +49041,31 @@
      "text": "И все-таки русский рок это самое лучшее и любимое"
     }
    ]
+  },
+  {
+   "id": 67793,
+   "type": "message",
+   "date": "2023-08-08T21:22:10",
+   "date_unixtime": "1691518930",
+   "from": "Ihar",
+   "from_id": "user498869700",
+   "text": [
+    {
+     "type": "mention",
+     "text": "@SansaraKarmovna"
+    },
+    " может уже сама знаешь куда и на выходные?"
+   ],
+   "text_entities": [
+    {
+     "type": "mention",
+     "text": "@SansaraKarmovna"
+    },
+    {
+     "type": "plain",
+     "text": " может уже сама знаешь куда и на выходные?"
+    }
+   ]
   }
  ]
 }
