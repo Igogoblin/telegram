@@ -69,3 +69,9 @@ let text3 = `<tr><td>${sans.name} </td><td>${sans.messages}</td><td>${(
 ).toFixed(2)} %</td></tr>`;
 let text4 = `<tr><td>итого </td><td>${all.messages}</td><td></td><td>${all.sym}</td><td></td></tr>`;
 table.innerHTML = text + text1 + text2 + text3 + text4;
+const btn = document.querySelector(".btn");
+const img = document.querySelector(".img");
+
+btn.addEventListener("click", () => {
+  // img.classList.remove("non");
+});
