@@ -1,6 +1,6 @@
 import myD from "./ChatExport_2023-08-05/result.json" assert { type: "json" };
 
-console.log(myD.messages[2]);
+// console.log(myD.messages[2]);
 let val = {
   name: "Валерия",
   messages: 0,
@@ -73,7 +73,10 @@ const btn = document.querySelector(".btn");
 const img = document.querySelector(".img");
 
 btn.addEventListener("click", () => {
-  // img.classList.remove("non");
+  img.classList.remove("non");
 });
 
 const retro = document.querySelector(".retro");
+
+// можно посчитать самую распространенную букву
+// можно посчитать самое распространенное слово
