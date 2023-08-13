@@ -1,20 +1,26 @@
 import myD from "./ChatExport_2023-08-05/result.json" assert { type: "json" };
-
-// console.log(myD.messages[2]);
+let alphabet = new Map();
+let valMap = new Map();
+let iMap = new Map();
+let sansMap = new Map();
+console.log(myD.messages[2].text);
 let val = {
   name: "Валерия",
   messages: 0,
   sym: 0,
+  allLiteral: valMap,
 };
 let ih = {
   name: "Ihar",
   messages: 0,
   sym: 0,
+  allLiteral: ihMap,
 };
 let sans = {
   name: "Сансара",
   messages: 0,
   sym: 0,
+  allLiteral: sansMap,
 };
 let all = {
   name: "all",
@@ -26,20 +32,88 @@ for (let i = 0; i < myD.messages.length; i++) {
     case val.name:
       val.messages++;
       val.sym += myD.messages[i].text.length;
+      if (myD.messages[i].text.length > 0) {
+        if (typeof myD.messages[i].text == "object") {
+          if (!myD.messages[i].text[0].text) {
+            countLiteral(myD.messages[i].text[1], valMap);
+          }
+        } else {
+          countLiteral(myD.messages[i].text, valMap);
+        }
+      }
       break;
     case ih.name:
       ih.messages++;
       ih.sym += myD.messages[i].text.length;
+      if (myD.messages[i].text.length > 0) {
+        if (typeof myD.messages[i].text == "object") {
+          if (!myD.messages[i].text[0].text) {
+            countLiteral(myD.messages[i].text[1], ihMap);
+          }
+        } else {
+          countLiteral(myD.messages[i].text, ihMap);
+        }
+      }
       break;
     case sans.name:
       sans.messages++;
       sans.sym += myD.messages[i].text.length;
+      if (myD.messages[i].text.length > 0) {
+        if (typeof myD.messages[i].text == "object") {
+          if (!myD.messages[i].text[0].text) {
+            countLiteral(myD.messages[i].text[1], valMap);
+          }
+        } else {
+          countLiteral(myD.messages[i].text, valMap);
+        }
+      }
       break;
   }
   all.messages++;
   all.sym += myD.messages[i].text.length;
-}
+  if (myD.messages[i].text.length > 0) {
+    if (typeof myD.messages[i].text == "object") {
+      if (!myD.messages[i].text[0].text) {
+        countLiteral(myD.messages[i].text[1], alphabet);
+      }
+    } else {
+      countLiteral(myD.messages[i].text, alphabet);
+    }
+  }
 
+  // let s = myD.messages[i].text;
+  // if (i == 12) {
+  //   for (let j = 0; j < s.length; j++) {
+  //     let our = s[j].toLowerCase();
+  //     if (!alphabet.has(our)) {
+  //       alphabet.set(our, 1);
+  //       continue;
+  //     } else if (alphabet.has(our)) {
+  //       alphabet.set(our, +alphabet.get(our) + 1);
+  //       continue;
+  //     }
+  //     // alphabet.set(myD);
+  //   }
+  // }
+}
+let s = myD.messages[2].text;
+let sMap = new Map();
+function countLiteral(s, myMap) {
+  // console.log(s);
+
+  for (let j = 0; j < s.length; j++) {
+    let our = s[j].toLowerCase();
+    if (!myMap.has(our)) {
+      myMap.set(our, 1);
+      continue;
+    } else if (myMap.has(our)) {
+      myMap.set(our, +myMap.get(our) + 1);
+      continue;
+    }
+  }
+  return myMap;
+}
+console.log(countLiteral(s, sMap));
 const persons = document.querySelector(".persons");
 const table = document.querySelector(".table");
 const lastDate = document.querySelector(".lastDate");
@@ -72,11 +146,14 @@ table.innerHTML = text + text1 + text2 + text3 + text4;
 const btn = document.querySelector(".btn");
 const img = document.querySelector(".img");
 
-btn.addEventListener("click", () => {
-  img.classList.remove("non");
-});
-
 const retro = document.querySelector(".retro");
 
 // можно посчитать самую распространенную букву
 // можно посчитать самое распространенное слово
+// отсутствие в сообщениях
+
+btn.addEventListener("click", () => {
+  // img.classList.remove("non");
+  console.log(alphabet);
+  console.log(Math.max(alphabet));
+});
