@@ -14,7 +14,7 @@ let ih = {
   name: "Ihar",
   messages: 0,
   sym: 0,
-  allLiteral: ihMap,
+  allLiteral: iMap,
 };
 let sans = {
   name: "Сансара",
@@ -35,10 +35,10 @@ for (let i = 0; i < myD.messages.length; i++) {
       if (myD.messages[i].text.length > 0) {
         if (typeof myD.messages[i].text == "object") {
           if (!myD.messages[i].text[0].text) {
-            countLiteral(myD.messages[i].text[1], valMap);
+            countLiteral(myD.messages[i].text[1], val.allLiteral);
           }
         } else {
-          countLiteral(myD.messages[i].text, valMap);
+          countLiteral(myD.messages[i].text, val.allLiteral);
         }
       }
       break;
@@ -48,10 +48,10 @@ for (let i = 0; i < myD.messages.length; i++) {
       if (myD.messages[i].text.length > 0) {
         if (typeof myD.messages[i].text == "object") {
           if (!myD.messages[i].text[0].text) {
-            countLiteral(myD.messages[i].text[1], ihMap);
+            countLiteral(myD.messages[i].text[1], ih.allLiteral);
           }
         } else {
-          countLiteral(myD.messages[i].text, ihMap);
+          countLiteral(myD.messages[i].text, ih.allLiteral);
         }
       }
       break;
@@ -61,10 +61,10 @@ for (let i = 0; i < myD.messages.length; i++) {
       if (myD.messages[i].text.length > 0) {
         if (typeof myD.messages[i].text == "object") {
           if (!myD.messages[i].text[0].text) {
-            countLiteral(myD.messages[i].text[1], valMap);
+            countLiteral(myD.messages[i].text[1], sans.allLiteral);
           }
         } else {
-          countLiteral(myD.messages[i].text, valMap);
+          countLiteral(myD.messages[i].text, sans.allLiteral);
         }
       }
       break;
@@ -155,5 +155,5 @@ const retro = document.querySelector(".retro");
 btn.addEventListener("click", () => {
   // img.classList.remove("non");
   console.log(alphabet);
-  console.log(Math.max(alphabet));
+  console.log(val.allLiteral);
 });
