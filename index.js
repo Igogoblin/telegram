@@ -100,7 +100,7 @@ let s = myD.messages[2].text;
 let sMap = new Map();
 function countLiteral(s, myMap) {
   // console.log(s);
-
+  // const isReg = /^[A-ZА-ЯЁ]+$/i;
   for (let j = 0; j < s.length; j++) {
     let our = s[j].toLowerCase();
     if (!myMap.has(our)) {
@@ -156,4 +156,23 @@ btn.addEventListener("click", () => {
   // img.classList.remove("non");
   console.log(alphabet);
   console.log(val.allLiteral);
+  console.log("ihar ,", ih.allLiteral);
+  console.log("sans ,", sans.allLiteral);
+  console.log(findLiteral(ih.allLiteral));
 });
+
+function findLiteral(m) {
+  let arr = [];
+  for (let elem of m) {
+    if (elem >= "a" && elem <= "я") {
+      arr.push(elem);
+    }
+  }
+  let a = arr[0][1];
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i][1] > a) {
+      a = arr[i];
+    }
+  }
+  return a;
+}
