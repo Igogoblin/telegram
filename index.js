@@ -3,24 +3,30 @@ let alphabet = new Map();
 let valMap = new Map();
 let iMap = new Map();
 let sansMap = new Map();
-console.log(myD.messages[2].text);
+console.log(myD.messages[2].from);
 let val = {
   name: "Валерия",
   messages: 0,
   sym: 0,
   allLiteral: valMap,
+  miss: 2,
+  ath: 0,
 };
 let ih = {
   name: "Ihar",
   messages: 0,
   sym: 0,
   allLiteral: iMap,
+  miss: 2,
+  ath: 0,
 };
 let sans = {
   name: "Сансара",
   messages: 0,
   sym: 0,
   allLiteral: sansMap,
+  miss: 2,
+  ath: 0,
 };
 let all = {
   name: "all",
@@ -81,20 +87,30 @@ for (let i = 0; i < myD.messages.length; i++) {
     }
   }
 
-  // let s = myD.messages[i].text;
-  // if (i == 12) {
-  //   for (let j = 0; j < s.length; j++) {
-  //     let our = s[j].toLowerCase();
-  //     if (!alphabet.has(our)) {
-  //       alphabet.set(our, 1);
-  //       continue;
-  //     } else if (alphabet.has(our)) {
-  //       alphabet.set(our, +alphabet.get(our) + 1);
-  //       continue;
-  //     }
-  //     // alphabet.set(myD);
-  //   }
-  // }
+  if (myD.messages[i].from == "Ihar") {
+    if (ih.ath > ih.miss) {
+      ih.miss = ih.ath;
+    }
+    ih.ath = 0;
+    val.ath++;
+    sans.ath++;
+  }
+  if (myD.messages[i].from == "Валерия") {
+    if (val.ath > val.miss) {
+      val.miss = val.ath;
+    }
+    val.ath = 0;
+    ih.ath++;
+    sans.ath++;
+  }
+  if (myD.messages[i].from == "Сансара") {
+    if (sans.ath > sans.miss) {
+      sans.miss = sans.ath;
+    }
+    sans.ath = 0;
+    val.ath++;
+    ih.ath++;
+  }
 }
 let s = myD.messages[2].text;
 let sMap = new Map();
@@ -148,7 +164,7 @@ const img = document.querySelector(".img");
 
 const retro = document.querySelector(".retro");
 
-// можно посчитать самую распространенную букву
+// можно посчитать самую распространенную букву = V
 // можно посчитать самое распространенное слово
 // отсутствие в сообщениях
 
@@ -176,3 +192,13 @@ function findLiteral(m) {
   }
   return a;
 }
+let retr = `<tr><td></td><td>любимая буква</td><td>отсутствие сообщений</td></tr>`;
+let retr1 = `<tr><td>${val.name}</td><td>${findLiteral(val.allLiteral)[0]}</td>
+<td>${val.miss}</td></tr>`;
+let retr2 = `<tr><td>${ih.name}</td><td>${findLiteral(ih.allLiteral)[0]}</td>
+<td>${ih.miss}</td></tr>`;
+let retr3 = `<tr><td>${sans.name}</td><td>${
+  findLiteral(sans.allLiteral)[0]
+}</td><td>${sans.miss}</td>
+</tr>`;
+retro.innerHTML = retr + retr1 + retr2 + retr3;
