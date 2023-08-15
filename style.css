@@ -88,3 +88,9 @@ td {
   border: 1px solid grey;
   text-align: center;
 }
+img {
+  width: 150px;
+}
+.non {
+  display: none;
+}
