@@ -168,14 +168,14 @@ const retro = document.querySelector(".retro");
 // можно посчитать самое распространенное слово
 // отсутствие в сообщениях
 
-btn.addEventListener("click", () => {
-  // img.classList.remove("non");
-  console.log(alphabet);
-  console.log(val.allLiteral);
-  console.log("ihar ,", ih.allLiteral);
-  console.log("sans ,", sans.allLiteral);
-  console.log(findLiteral(ih.allLiteral));
-});
+// btn.addEventListener("click", () => {
+//   // img.classList.remove("non");
+//   console.log(alphabet);
+//   console.log(val.allLiteral);
+//   console.log("ihar ,", ih.allLiteral);
+//   console.log("sans ,", sans.allLiteral);
+//   console.log(findLiteral(ih.allLiteral));
+// });
 
 function findLiteral(m) {
   let arr = [];
