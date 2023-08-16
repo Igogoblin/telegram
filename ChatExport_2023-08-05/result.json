@@ -73282,27 +73282,17 @@
    ]
   },
   {
-   "id": 70106,
+   "id": 70126,
    "type": "message",
-   "date": "2023-08-16T19:33:05",
-   "date_unixtime": "1692203585",
+   "date": "2023-08-16T21:01:50",
+   "date_unixtime": "1692208910",
    "from": "Ihar",
    "from_id": "user498869700",
-   "text": [
-    {
-     "type": "mention",
-     "text": "@Valeriya15r"
-    },
-    " не хочешь пойти на эксперимент?"
-   ],
+   "text": "вот уже и ночь считай",
    "text_entities": [
     {
-     "type": "mention",
-     "text": "@Valeriya15r"
-    },
-    {
      "type": "plain",
-     "text": " не хочешь пойти на эксперимент?"
+     "text": "вот уже и ночь считай"
     }
    ]
   }
