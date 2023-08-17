@@ -11,6 +11,7 @@ let val = {
   allLiteral: valMap,
   miss: 2,
   ath: 0,
+  reply: 0,
 };
 let ih = {
   name: "Ihar",
@@ -19,6 +20,7 @@ let ih = {
   allLiteral: iMap,
   miss: 2,
   ath: 0,
+  reply: 0,
 };
 let sans = {
   name: "Сансара",
@@ -27,6 +29,7 @@ let sans = {
   allLiteral: sansMap,
   miss: 2,
   ath: 0,
+  reply: 0,
 };
 let all = {
   name: "all",
@@ -86,7 +89,20 @@ for (let i = 0; i < myD.messages.length; i++) {
       countLiteral(myD.messages[i].text, alphabet);
     }
   }
-
+  // here is reply start -----------------------------------
+  if (myD.messages[i].reply_to_message_id) {
+    if (myD.messages[myD.messages[i].reply_to_message_id - 63479]) {
+      let chel = myD.messages[myD.messages[i].reply_to_message_id - 63479].from;
+      if (ih.name == chel) {
+        ih.reply++;
+      } else if (val.name == chel) {
+        val.reply++;
+      } else if (sans.name == chel) {
+        sans.reply++;
+      }
+    }
+  }
+  // here is reply finish ----------------------------------
   if (myD.messages[i].from == "Ihar") {
     if (ih.ath > ih.miss) {
       ih.miss = ih.ath;
@@ -129,10 +145,15 @@ function countLiteral(s, myMap) {
   }
   return myMap;
 }
+
 console.log(countLiteral(s, sMap));
 const persons = document.querySelector(".persons");
 const table = document.querySelector(".table");
 const lastDate = document.querySelector(".lastDate");
+let i = 26;
+console.log(myD.messages[myD.messages[i].reply_to_message_id - 63479].from);
+console.log(myD.messages[63500 - 63479].from == ih.name);
+console.log(ih.name);
 console.log(myD.messages[myD.messages.length - 1].date);
 lastDate.textContent = myD.messages[myD.messages.length - 1].date;
 
@@ -166,7 +187,9 @@ const retro = document.querySelector(".retro");
 
 // можно посчитать самую распространенную букву = V
 // можно посчитать самое распространенное слово
-// отсутствие в сообщениях
+// отсутствие в сообщениях                      = V
+// find to ризда локаштилея
+// чаще кому отвечают                           = V
 
 // btn.addEventListener("click", () => {
 //   // img.classList.remove("non");
@@ -176,6 +199,8 @@ const retro = document.querySelector(".retro");
 //   console.log("sans ,", sans.allLiteral);
 //   console.log(findLiteral(ih.allLiteral));
 // });
+
+console.log(myD.messages[63503 - 63479]);
 
 function findLiteral(m) {
   let arr = [];
@@ -192,13 +217,13 @@ function findLiteral(m) {
   }
   return a;
 }
-let retr = `<tr><td></td><td>любимая буква</td><td>отсутствие сообщений</td></tr>`;
+let retr = `<tr><td></td><td>любимая буква</td><td>отсутствие сообщений</td><td>сколько раз ответили</td></tr>`;
 let retr1 = `<tr><td>${val.name}</td><td>${findLiteral(val.allLiteral)[0]}</td>
-<td>${val.miss}</td></tr>`;
+<td>${val.miss}</td><td>${val.reply}</td></tr>`;
 let retr2 = `<tr><td>${ih.name}</td><td>${findLiteral(ih.allLiteral)[0]}</td>
-<td>${ih.miss}</td></tr>`;
+<td>${ih.miss}</td><td>${ih.reply}</td></tr>`;
 let retr3 = `<tr><td>${sans.name}</td><td>${
   findLiteral(sans.allLiteral)[0]
-}</td><td>${sans.miss}</td>
+}</td><td>${sans.miss}</td><td>${sans.reply}</td>
 </tr>`;
 retro.innerHTML = retr + retr1 + retr2 + retr3;
