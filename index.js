@@ -199,6 +199,7 @@ const retro = document.querySelector(".retro");
 // отсутствие в сообщениях                      = V
 // find to ризда локаштилея
 // чаще кому отвечают                           = V
+// сделать календарь после нахождения местопол
 
 // btn.addEventListener("click", () => {
 //   // img.classList.remove("non");
