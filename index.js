@@ -235,5 +235,3 @@ let retr3 = `<tr><td>${sans.name}</td><td>${
 }</td><td>${sans.miss}</td><td>${sans.reply}</td>
 </tr>`;
 retro.innerHTML = retr + retr1 + retr2 + retr3;
-
-// \b[а-яА-Я]+\b
