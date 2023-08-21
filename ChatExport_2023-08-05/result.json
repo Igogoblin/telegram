@@ -77359,6 +77359,768 @@
      "text": "На нашу компанию 3 бутылочки  уходит))"
     }
    ]
+  },
+  {
+   "id": 70715,
+   "type": "message",
+   "date": "2023-08-21T07:09:38",
+   "date_unixtime": "1692590978",
+   "from": "Сансара",
+   "from_id": "user6276121977",
+   "text": "Доброе утро, я снова на связи",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Доброе утро, я снова на связи"
+    }
+   ]
+  },
+  {
+   "id": 70716,
+   "type": "message",
+   "date": "2023-08-21T07:10:09",
+   "date_unixtime": "1692591009",
+   "from": "Ihar",
+   "from_id": "user498869700",
+   "text": "Все хорошо?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Все хорошо?"
+    }
+   ]
+  },
+  {
+   "id": 70717,
+   "type": "message",
+   "date": "2023-08-21T07:11:21",
+   "date_unixtime": "1692591081",
+   "from": "Сансара",
+   "from_id": "user6276121977",
+   "text": "Да",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Да"
+    }
+   ]
+  },
+  {
+   "id": 70718,
+   "type": "message",
+   "date": "2023-08-21T07:22:52",
+   "date_unixtime": "1692591772",
+   "from": "Валерия",
+   "from_id": "user453815685",
+   "reply_to_message_id": 70715,
+   "text": "🥳",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "🥳"
+    }
+   ]
+  },
+  {
+   "id": 70719,
+   "type": "message",
+   "date": "2023-08-21T11:24:42",
+   "date_unixtime": "1692606282",
+   "edited": "2023-08-21T12:25:28",
+   "edited_unixtime": "1692609928",
+   "from": "Сансара",
+   "from_id": "user6276121977",
+   "file": "(File not included. Change data exporting settings to download.)",
+   "media_type": "audio_file",
+   "performer": "Dmitry Levin",
+   "title": "Echotherapy",
+   "mime_type": "audio/mpeg",
+   "duration_seconds": 445,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 70720,
+   "type": "message",
+   "date": "2023-08-21T11:25:03",
+   "date_unixtime": "1692606303",
+   "edited": "2023-08-21T11:25:21",
+   "edited_unixtime": "1692606321",
+   "from": "Сансара",
+   "from_id": "user6276121977",
+   "text": "Послушайте, какую шикарную вещь нашла",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Послушайте, какую шикарную вещь нашла"
+    }
+   ]
+  },
+  {
+   "id": 70721,
+   "type": "message",
+   "date": "2023-08-21T12:25:39",
+   "date_unixtime": "1692609939",
+   "from": "Ihar",
+   "from_id": "user498869700",
+   "text": "прямо музыкальная история",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "прямо музыкальная история"
+    }
+   ]
+  },
+  {
+   "id": 70723,
+   "type": "message",
+   "date": "2023-08-21T12:48:28",
+   "date_unixtime": "1692611308",
+   "from": "Сансара",
+   "from_id": "user6276121977",
+   "text": "Дождаться не могла, пока в плейлист выйдет",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Дождаться не могла, пока в плейлист выйдет"
+    }
+   ]
+  },
+  {
+   "id": 70724,
+   "type": "message",
+   "date": "2023-08-21T12:48:38",
+   "date_unixtime": "1692611318",
+   "from": "Сансара",
+   "from_id": "user6276121977",
+   "text": "Второй день кручу",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Второй день кручу"
+    }
+   ]
+  },
+  {
+   "id": 70725,
+   "type": "message",
+   "date": "2023-08-21T13:31:35",
+   "date_unixtime": "1692613895",
+   "from": "Валерия",
+   "from_id": "user453815685",
+   "reply_to_message_id": 70719,
+   "text": "Я прям зависла...интересная",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Я прям зависла...интересная"
+    }
+   ]
+  },
+  {
+   "id": 70729,
+   "type": "message",
+   "date": "2023-08-21T14:53:52",
+   "date_unixtime": "1692618832",
+   "from": "Сансара",
+   "from_id": "user6276121977",
+   "text": "Мы в лес поехали. Вас дразнить?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Мы в лес поехали. Вас дразнить?"
+    }
+   ]
+  },
+  {
+   "id": 70730,
+   "type": "message",
+   "date": "2023-08-21T14:54:13",
+   "date_unixtime": "1692618853",
+   "from": "Валерия",
+   "from_id": "user453815685",
+   "text": "Канееечнооо))",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Канееечнооо))"
+    }
+   ]
+  },
+  {
+   "id": 70731,
+   "type": "message",
+   "date": "2023-08-21T14:54:25",
+   "date_unixtime": "1692618865",
+   "from": "Сансара",
+   "from_id": "user6276121977",
+   "text": "Океюшки😊",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Океюшки😊"
+    }
+   ]
+  },
+  {
+   "id": 70733,
+   "type": "message",
+   "date": "2023-08-21T16:03:32",
+   "date_unixtime": "1692623012",
+   "from": "Ihar",
+   "from_id": "user498869700",
+   "text": "Даже не, это музыкальный рассказ))) именно здесь более глубокие мысли. Под неё, скорее всего лучше делать что-либо из рутины",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Даже не, это музыкальный рассказ))) именно здесь более глубокие мысли. Под неё, скорее всего лучше делать что-либо из рутины"
+    }
+   ]
+  },
+  {
+   "id": 70775,
+   "type": "message",
+   "date": "2023-08-21T17:58:20",
+   "date_unixtime": "1692629900",
+   "from": "Валерия",
+   "from_id": "user453815685",
+   "text": "Ну что, лесная красавица, где контент?)",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Ну что, лесная красавица, где контент?)"
+    }
+   ]
+  },
+  {
+   "id": 70776,
+   "type": "message",
+   "date": "2023-08-21T17:59:18",
+   "date_unixtime": "1692629958",
+   "from": "Ihar",
+   "from_id": "user498869700",
+   "text": "походу красота невывозная оказалась. Поэтому только со слов очевидцев",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "походу красота невывозная оказалась. Поэтому только со слов очевидцев"
+    }
+   ]
+  },
+  {
+   "id": 70777,
+   "type": "message",
+   "date": "2023-08-21T17:59:37",
+   "date_unixtime": "1692629977",
+   "from": "Сансара",
+   "from_id": "user6276121977",
+   "text": "Ща всё будет",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Ща всё будет"
+    }
+   ]
+  },
+  {
+   "id": 70778,
+   "type": "message",
+   "date": "2023-08-21T17:59:47",
+   "date_unixtime": "1692629987",
+   "from": "Сансара",
+   "from_id": "user6276121977",
+   "text": "В лесу связи не было",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "В лесу связи не было"
+    }
+   ]
+  },
+  {
+   "id": 70779,
+   "type": "message",
+   "date": "2023-08-21T18:01:26",
+   "date_unixtime": "1692630086",
+   "from": "Сансара",
+   "from_id": "user6276121977",
+   "photo": "(File not included. Change data exporting settings to download.)",
+   "width": 960,
+   "height": 1280,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 70780,
+   "type": "message",
+   "date": "2023-08-21T18:01:26",
+   "date_unixtime": "1692630086",
+   "from": "Сансара",
+   "from_id": "user6276121977",
+   "photo": "(File not included. Change data exporting settings to download.)",
+   "width": 960,
+   "height": 1280,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 70781,
+   "type": "message",
+   "date": "2023-08-21T18:01:26",
+   "date_unixtime": "1692630086",
+   "from": "Сансара",
+   "from_id": "user6276121977",
+   "photo": "(File not included. Change data exporting settings to download.)",
+   "width": 960,
+   "height": 1280,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 70782,
+   "type": "message",
+   "date": "2023-08-21T18:01:26",
+   "date_unixtime": "1692630086",
+   "from": "Сансара",
+   "from_id": "user6276121977",
+   "photo": "(File not included. Change data exporting settings to download.)",
+   "width": 960,
+   "height": 1280,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 70783,
+   "type": "message",
+   "date": "2023-08-21T18:01:26",
+   "date_unixtime": "1692630086",
+   "from": "Сансара",
+   "from_id": "user6276121977",
+   "photo": "(File not included. Change data exporting settings to download.)",
+   "width": 960,
+   "height": 1280,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 70784,
+   "type": "message",
+   "date": "2023-08-21T18:01:27",
+   "date_unixtime": "1692630087",
+   "from": "Сансара",
+   "from_id": "user6276121977",
+   "photo": "(File not included. Change data exporting settings to download.)",
+   "width": 960,
+   "height": 1280,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 70785,
+   "type": "message",
+   "date": "2023-08-21T18:01:27",
+   "date_unixtime": "1692630087",
+   "from": "Сансара",
+   "from_id": "user6276121977",
+   "photo": "(File not included. Change data exporting settings to download.)",
+   "width": 960,
+   "height": 1280,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 70786,
+   "type": "message",
+   "date": "2023-08-21T18:01:27",
+   "date_unixtime": "1692630087",
+   "from": "Сансара",
+   "from_id": "user6276121977",
+   "photo": "(File not included. Change data exporting settings to download.)",
+   "width": 960,
+   "height": 1280,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 70787,
+   "type": "message",
+   "date": "2023-08-21T18:01:27",
+   "date_unixtime": "1692630087",
+   "from": "Сансара",
+   "from_id": "user6276121977",
+   "photo": "(File not included. Change data exporting settings to download.)",
+   "width": 960,
+   "height": 1280,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 70788,
+   "type": "message",
+   "date": "2023-08-21T18:01:27",
+   "date_unixtime": "1692630087",
+   "from": "Сансара",
+   "from_id": "user6276121977",
+   "photo": "(File not included. Change data exporting settings to download.)",
+   "width": 960,
+   "height": 1280,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 70789,
+   "type": "message",
+   "date": "2023-08-21T18:01:32",
+   "date_unixtime": "1692630092",
+   "from": "Сансара",
+   "from_id": "user6276121977",
+   "photo": "(File not included. Change data exporting settings to download.)",
+   "width": 960,
+   "height": 1280,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 70790,
+   "type": "message",
+   "date": "2023-08-21T18:01:32",
+   "date_unixtime": "1692630092",
+   "from": "Сансара",
+   "from_id": "user6276121977",
+   "photo": "(File not included. Change data exporting settings to download.)",
+   "width": 960,
+   "height": 1280,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 70791,
+   "type": "message",
+   "date": "2023-08-21T18:01:32",
+   "date_unixtime": "1692630092",
+   "from": "Сансара",
+   "from_id": "user6276121977",
+   "photo": "(File not included. Change data exporting settings to download.)",
+   "width": 960,
+   "height": 1280,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 70792,
+   "type": "message",
+   "date": "2023-08-21T18:01:32",
+   "date_unixtime": "1692630092",
+   "from": "Сансара",
+   "from_id": "user6276121977",
+   "photo": "(File not included. Change data exporting settings to download.)",
+   "width": 960,
+   "height": 1280,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 70793,
+   "type": "message",
+   "date": "2023-08-21T18:01:32",
+   "date_unixtime": "1692630092",
+   "from": "Сансара",
+   "from_id": "user6276121977",
+   "photo": "(File not included. Change data exporting settings to download.)",
+   "width": 960,
+   "height": 1280,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 70794,
+   "type": "message",
+   "date": "2023-08-21T18:01:32",
+   "date_unixtime": "1692630092",
+   "from": "Сансара",
+   "from_id": "user6276121977",
+   "photo": "(File not included. Change data exporting settings to download.)",
+   "width": 960,
+   "height": 1280,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 70795,
+   "type": "message",
+   "date": "2023-08-21T18:01:32",
+   "date_unixtime": "1692630092",
+   "from": "Сансара",
+   "from_id": "user6276121977",
+   "photo": "(File not included. Change data exporting settings to download.)",
+   "width": 960,
+   "height": 1280,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 70796,
+   "type": "message",
+   "date": "2023-08-21T18:01:32",
+   "date_unixtime": "1692630092",
+   "from": "Сансара",
+   "from_id": "user6276121977",
+   "photo": "(File not included. Change data exporting settings to download.)",
+   "width": 960,
+   "height": 1280,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 70797,
+   "type": "message",
+   "date": "2023-08-21T18:01:32",
+   "date_unixtime": "1692630092",
+   "from": "Сансара",
+   "from_id": "user6276121977",
+   "photo": "(File not included. Change data exporting settings to download.)",
+   "width": 960,
+   "height": 1280,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 70798,
+   "type": "message",
+   "date": "2023-08-21T18:01:32",
+   "date_unixtime": "1692630092",
+   "from": "Сансара",
+   "from_id": "user6276121977",
+   "photo": "(File not included. Change data exporting settings to download.)",
+   "width": 960,
+   "height": 1280,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 70799,
+   "type": "message",
+   "date": "2023-08-21T18:01:38",
+   "date_unixtime": "1692630098",
+   "from": "Сансара",
+   "from_id": "user6276121977",
+   "photo": "(File not included. Change data exporting settings to download.)",
+   "width": 960,
+   "height": 1280,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 70800,
+   "type": "message",
+   "date": "2023-08-21T18:01:38",
+   "date_unixtime": "1692630098",
+   "from": "Сансара",
+   "from_id": "user6276121977",
+   "photo": "(File not included. Change data exporting settings to download.)",
+   "width": 960,
+   "height": 1280,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 70801,
+   "type": "message",
+   "date": "2023-08-21T18:01:38",
+   "date_unixtime": "1692630098",
+   "from": "Сансара",
+   "from_id": "user6276121977",
+   "photo": "(File not included. Change data exporting settings to download.)",
+   "width": 960,
+   "height": 1280,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 70802,
+   "type": "message",
+   "date": "2023-08-21T18:01:38",
+   "date_unixtime": "1692630098",
+   "from": "Сансара",
+   "from_id": "user6276121977",
+   "photo": "(File not included. Change data exporting settings to download.)",
+   "width": 960,
+   "height": 1280,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 70803,
+   "type": "message",
+   "date": "2023-08-21T18:01:38",
+   "date_unixtime": "1692630098",
+   "from": "Сансара",
+   "from_id": "user6276121977",
+   "photo": "(File not included. Change data exporting settings to download.)",
+   "width": 960,
+   "height": 1280,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 70804,
+   "type": "message",
+   "date": "2023-08-21T18:01:38",
+   "date_unixtime": "1692630098",
+   "from": "Сансара",
+   "from_id": "user6276121977",
+   "photo": "(File not included. Change data exporting settings to download.)",
+   "width": 960,
+   "height": 1280,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 70805,
+   "type": "message",
+   "date": "2023-08-21T18:01:38",
+   "date_unixtime": "1692630098",
+   "from": "Сансара",
+   "from_id": "user6276121977",
+   "photo": "(File not included. Change data exporting settings to download.)",
+   "width": 960,
+   "height": 1280,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 70806,
+   "type": "message",
+   "date": "2023-08-21T18:01:38",
+   "date_unixtime": "1692630098",
+   "from": "Сансара",
+   "from_id": "user6276121977",
+   "photo": "(File not included. Change data exporting settings to download.)",
+   "width": 960,
+   "height": 1280,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 70807,
+   "type": "message",
+   "date": "2023-08-21T18:01:38",
+   "date_unixtime": "1692630098",
+   "from": "Сансара",
+   "from_id": "user6276121977",
+   "photo": "(File not included. Change data exporting settings to download.)",
+   "width": 960,
+   "height": 1280,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 70808,
+   "type": "message",
+   "date": "2023-08-21T18:01:38",
+   "date_unixtime": "1692630098",
+   "from": "Сансара",
+   "from_id": "user6276121977",
+   "photo": "(File not included. Change data exporting settings to download.)",
+   "width": 960,
+   "height": 1280,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 70809,
+   "type": "message",
+   "date": "2023-08-21T18:04:02",
+   "date_unixtime": "1692630242",
+   "from": "Сансара",
+   "from_id": "user6276121977",
+   "photo": "(File not included. Change data exporting settings to download.)",
+   "width": 960,
+   "height": 1280,
+   "text": "Вот как ни странно, это тоже красноголовик",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Вот как ни странно, это тоже красноголовик"
+    }
+   ]
+  },
+  {
+   "id": 70810,
+   "type": "message",
+   "date": "2023-08-21T18:36:35",
+   "date_unixtime": "1692632195",
+   "from": "Валерия",
+   "from_id": "user453815685",
+   "text": "Восхитительно!!!!",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Восхитительно!!!!"
+    }
+   ]
+  },
+  {
+   "id": 70811,
+   "type": "message",
+   "date": "2023-08-21T18:40:49",
+   "date_unixtime": "1692632449",
+   "from": "Валерия",
+   "from_id": "user453815685",
+   "text": "Когда вижу эти грибы и лес, сразу ассоциации у меня из старой советской  сказки \"Морозко\" помню эти декорации, лес и такие красивые грибы с красными шляпками)) мне всегда казалось что они только  сказочные)) а оказывается нет",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Когда вижу эти грибы и лес, сразу ассоциации у меня из старой советской  сказки \"Морозко\" помню эти декорации, лес и такие красивые грибы с красными шляпками)) мне всегда казалось что они только  сказочные)) а оказывается нет"
+    }
+   ]
+  },
+  {
+   "id": 70812,
+   "type": "message",
+   "date": "2023-08-21T18:41:42",
+   "date_unixtime": "1692632502",
+   "from": "Сансара",
+   "from_id": "user6276121977",
+   "text": "Не сказочные. Я специально красоту выбирала😊",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Не сказочные. Я специально красоту выбирала😊"
+    }
+   ]
+  },
+  {
+   "id": 70813,
+   "type": "message",
+   "date": "2023-08-21T18:42:49",
+   "date_unixtime": "1692632569",
+   "edited": "2023-08-21T19:12:27",
+   "edited_unixtime": "1692634347",
+   "from": "Сансара",
+   "from_id": "user6276121977",
+   "text": "Хотя вот первые кадры, лес, я просто вокруг себя оборачивалась и снимала. Опушка леса",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Хотя вот первые кадры, лес, я просто вокруг себя оборачивалась и снимала. Опушка леса"
+    }
+   ]
+  },
+  {
+   "id": 70814,
+   "type": "message",
+   "date": "2023-08-21T19:11:30",
+   "date_unixtime": "1692634290",
+   "from": "Ihar",
+   "from_id": "user498869700",
+   "text": "Мухоморы как всегда топчик",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Мухоморы как всегда топчик"
+    }
+   ]
   }
  ]
 }
