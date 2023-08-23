@@ -1,4 +1,5 @@
 import myD from "./ChatExport_2023-08-05/result.json" assert { type: "json" };
+//import t1 from "./userInfo/script";
 let alphabet = new Map();
 let valMap = new Map();
 let iMap = new Map();
@@ -235,3 +236,73 @@ let retr3 = `<tr><td>${sans.name}</td><td>${
 }</td><td>${sans.miss}</td><td>${sans.reply}</td>
 </tr>`;
 retro.innerHTML = retr + retr1 + retr2 + retr3;
+
+// ---------------------------------------------------------------------------------
+class UserInfo {
+  constructor() {
+    this.timeOpened = new Date();
+    this.timezone = new Date().getTimezoneOffset() / 60;
+  }
+  pageon() {
+    // file location
+    return window.location.pathname;
+  }
+
+  referrer() {
+    return document.referrer;
+  }
+  previousSites() {
+    return history.length;
+  }
+  browserInfo() {
+    return navigator;
+  }
+  dataCookies() {
+    return decodeURIComponent(document.cookie.split(";"));
+  }
+  dataStorage() {
+    return localStorage;
+  }
+  sizeScreen() {
+    return {
+      width: screen.width,
+      height: screen.height,
+      clientWidth: document.body.clientWidth,
+      clientHeight: document.body.clientHeight,
+      innerWidth: window.innerWidth,
+      innerHeight: window.innerHeight,
+      screenAvailWidth: screen.availWidth,
+      screenAvailHeight: screen.availHeight,
+      colorDepth: screen.colorDepth,
+      pixelDepth: screen.pixelDepth,
+    };
+  }
+  async position() {
+    const pos = await new Promise((resolve, reject) => {
+      navigator.geolocation.getCurrentPosition(resolve, reject);
+    });
+    return {
+      long: pos.coords.longitude,
+      lat: pos.coords.latitude,
+      accuracy: pos.coords.accuracy,
+      altitude: pos.coords.altitude,
+      heading: pos.coords.heading,
+      speed: pos.coords.speed,
+      timestamp: pos.timestamp,
+    };
+  }
+}
+let info = new UserInfo();
+
+console.log("this is file script");
+async function t1() {
+  console.log(info.pageon());
+  console.log(info.referrer());
+  console.log(info.previousSites());
+  console.log(info.browserInfo());
+  console.log(info.dataCookies());
+  console.log(info.dataStorage());
+  console.log(info.sizeScreen());
+  console.log(info.position());
+}
+t1();
