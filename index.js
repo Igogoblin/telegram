@@ -243,19 +243,21 @@ console.log(favoriteWord(txt, test));
 
 function findLiteral(m) {
   let arr = [];
+  let rez;
   for (let elem of m) {
     if (elem >= "a" && elem <= "я") {
       arr.push(elem);
     }
   }
+  // console.log("arr ", arr);
   let a = arr[0][1];
   for (let i = 0; i < arr.length; i++) {
     if (arr[i][1] > a) {
-      a = arr[i];
+      a = arr[i][1];
+      rez = arr[i][0];
     }
   }
-  console.log(val.allWords);
-  return a;
+  return rez;
 }
 function findFavoriteWord(m, ch) {
   let arr = [...m];
@@ -373,4 +375,6 @@ async function t1() {
 }
 t1();
 
-console.log("");
+console.log("faforite literal", val.allLiteral);
+console.log("faforite literal", ih.allLiteral);
+console.log("faforite literal", sans.allLiteral);
