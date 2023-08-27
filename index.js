@@ -1,4 +1,5 @@
 import myD from "./ChatExport_2023-08-05/result.json" assert { type: "json" };
+//import t1 from "./userInfo/script";
 let alphabet = new Map();
 let valMap = new Map();
 let iMap = new Map();
@@ -55,7 +56,9 @@ for (let i = 0; i < myD.messages.length; i++) {
         } else {
           countLiteral(myD.messages[i].text, val.allLiteral);
         }
+        favoriteWord(myD.messages[i].text, val.allWords);
       }
+      //favoriteWord(myD.messages[i].text, val.allWords);
       break;
     case ih.name:
       ih.messages++;
@@ -68,6 +71,7 @@ for (let i = 0; i < myD.messages.length; i++) {
         } else {
           countLiteral(myD.messages[i].text, ih.allLiteral);
         }
+        favoriteWord(myD.messages[i].text, ih.allWords);
       }
       break;
     case sans.name:
@@ -81,6 +85,7 @@ for (let i = 0; i < myD.messages.length; i++) {
         } else {
           countLiteral(myD.messages[i].text, sans.allLiteral);
         }
+        favoriteWord(myD.messages[i].text, sans.allWords);
       }
       break;
   }
@@ -195,12 +200,38 @@ const img = document.querySelector(".img");
 const retro = document.querySelector(".retro");
 
 // можно посчитать самую распространенную букву = V
-// можно посчитать самое распространенное слово
+// можно посчитать самое распространенное слово              [А-Яа-яЁё]+
 // отсутствие в сообщениях                      = V
 // find to ризда локаштилея
 // чаще кому отвечают                           = V
 // сделать календарь после нахождения местопол
 
+let txt = "но вы же понимаете, что весь шарм в зависти других dasfg";
+let reg = /(\w+)/g;
+// let res = txt.match(/([А-Яа-яЁё]+)/g);
+// console.log(res);
+function favoriteWord(txt, hMap) {
+  if (typeof txt == "object") {
+    txt = toString(txt[1]);
+  }
+  let res = txt.match(/([А-Яа-яЁё]+)/g);
+  if (res == null) return;
+
+  for (let i = 0; i < res.length; i++) {
+    let word = res[i].toLowerCase();
+    if (word == "undefined") continue;
+    if (!hMap.has(word)) {
+      hMap.set(word, 1);
+      continue;
+    } else if (hMap.has(word)) {
+      hMap.set(word, +hMap.get(word) + 1);
+      continue;
+    }
+  }
+  return hMap;
+}
+let test = new Map();
+console.log(favoriteWord(txt, test));
 // btn.addEventListener("click", () => {
 //   // img.classList.remove("non");
 //   console.log(alphabet);
@@ -212,28 +243,138 @@ const retro = document.querySelector(".retro");
 
 function findLiteral(m) {
   let arr = [];
+  let rez;
   for (let elem of m) {
     if (elem >= "a" && elem <= "я") {
       arr.push(elem);
     }
   }
+  // console.log("arr ", arr);
   let a = arr[0][1];
   for (let i = 0; i < arr.length; i++) {
     if (arr[i][1] > a) {
-      a = arr[i];
+      a = arr[i][1];
+      rez = arr[i][0];
     }
   }
-  return a;
+  return rez;
 }
-let retr = `<tr><td></td><td>любимая буква</td><td>отсутствие сообщений</td><td>сколько раз ответили</td></tr>`;
+function findFavoriteWord(m, ch) {
+  let arr = [...m];
+  // console.log(m, arr);
+  let arrWords = [];
+  let a = arr[2][1];
+  console.log("first number ", a);
+  // arrWords.push(arr[0][0]);
+  console.log(arr);
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i][1] > a && arr[i][0].length > 2) {
+      console.log("this is more then a ", arr[i][0]);
+      a = arr[i][1];
+      arrWords.push(arr[i][0]);
+    }
+    if (arr[i][0] == "поэтому") {
+      console.log("poetomu ", arr[i][1]);
+    }
+  }
+  console.log("max word ", arrWords);
+  if (ch == 1) {
+    return a;
+  }
+  return arrWords[arrWords.length - 1];
+}
+let retr = `<tr><td></td><td>любимая буква</td><td class="non">любимое слово</td><td>отсутствие сообщений</td><td>сколько раз ответили</td></tr>`;
 let retr1 = `<tr><td>${val.name}</td><td>${findLiteral(val.allLiteral)[0]}</td>
-<td>${val.miss}</td><td>${val.reply}</td></tr>`;
-let retr2 = `<tr><td>${ih.name}</td><td>${findLiteral(ih.allLiteral)[0]}</td>
+<td class="non">${findFavoriteWord(val.allWords)}-${findFavoriteWord(
+  val.allWords,
+  1
+)}</td><td>${val.miss}</td><td>${val.reply}</td></tr>`;
+let retr2 = `<tr><td>${ih.name}</td><td>${
+  findLiteral(ih.allLiteral)[0]
+}</td><td class="non">${findFavoriteWord(ih.allWords)}-${findFavoriteWord(
+  ih.allWords,
+  1
+)}</td>
 <td>${ih.miss}</td><td>${ih.reply}</td></tr>`;
 let retr3 = `<tr><td>${sans.name}</td><td>${
   findLiteral(sans.allLiteral)[0]
-}</td><td>${sans.miss}</td><td>${sans.reply}</td>
+}</td><td class="non">${findFavoriteWord(sans.allWords)}-${findFavoriteWord(
+  sans.allWords,
+  1
+)}</td><td>${sans.miss}</td><td>${sans.reply}</td>
 </tr>`;
 retro.innerHTML = retr + retr1 + retr2 + retr3;
 
-// \b[а-яА-Я]+\b
+// ---------------------------------------------------------------------------------
+class UserInfo {
+  constructor() {
+    this.timeOpened = new Date();
+    this.timezone = new Date().getTimezoneOffset() / 60;
+  }
+  pageon() {
+    // file location
+    return window.location.pathname;
+  }
+
+  referrer() {
+    return document.referrer;
+  }
+  previousSites() {
+    return history.length;
+  }
+  browserInfo() {
+    return navigator;
+  }
+  dataCookies() {
+    return decodeURIComponent(document.cookie.split(";"));
+  }
+  dataStorage() {
+    return localStorage;
+  }
+  sizeScreen() {
+    return {
+      width: screen.width,
+      height: screen.height,
+      clientWidth: document.body.clientWidth,
+      clientHeight: document.body.clientHeight,
+      innerWidth: window.innerWidth,
+      innerHeight: window.innerHeight,
+      screenAvailWidth: screen.availWidth,
+      screenAvailHeight: screen.availHeight,
+      colorDepth: screen.colorDepth,
+      pixelDepth: screen.pixelDepth,
+    };
+  }
+  async position() {
+    const pos = await new Promise((resolve, reject) => {
+      navigator.geolocation.getCurrentPosition(resolve, reject);
+    });
+    return {
+      long: pos.coords.longitude,
+      lat: pos.coords.latitude,
+      accuracy: pos.coords.accuracy,
+      altitude: pos.coords.altitude,
+      heading: pos.coords.heading,
+      speed: pos.coords.speed,
+      timestamp: pos.timestamp,
+    };
+  }
+}
+let info = new UserInfo();
+
+console.log("this is file script");
+async function t1() {
+  console.log(info.pageon());
+  console.log(info.referrer());
+  console.log(info.previousSites());
+  console.log(info.browserInfo());
+  console.log(info.dataCookies());
+  console.log(info.dataStorage());
+  console.log(info.sizeScreen());
+  // console.log(info.position());
+}
+t1();
+
+console.log("faforite literal", val.allLiteral);
+console.log("faforite literal", ih.allLiteral);
+console.log("faforite literal", sans.allLiteral);
