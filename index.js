@@ -378,3 +378,11 @@ t1();
 console.log("faforite literal", val.allLiteral);
 console.log("faforite literal", ih.allLiteral);
 console.log("faforite literal", sans.allLiteral);
+
+const calend = document.querySelector(".calend");
+let textCalend = "";
+for (let i = -3; i < 31; i++) {
+  if (i < 1) {
+    // text
+  }
+}
