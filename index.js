@@ -395,6 +395,7 @@ for (let i = 0; i < 5; i++) {
       txt += `<td></td>`;
     } else {
       // here logic for background by class work
+
       txt += `<td>${day}</td>`;
     }
   }
