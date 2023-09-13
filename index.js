@@ -378,3 +378,28 @@ t1();
 console.log("faforite literal", val.allLiteral);
 console.log("faforite literal", ih.allLiteral);
 console.log("faforite literal", sans.allLiteral);
+
+const calend = document.querySelector(".calend");
+let textCalend = "";
+let weekCalend =
+  "<tr><td>пн</td><td>вт</td><td>ср</td><td>чт</td><td>пт</td><td>сб</td><td>вс</td></tr>";
+let day = -4;
+
+for (let i = 0; i < 5; i++) {
+  let start = "<tr>";
+  let finish = "</tr>";
+  let txt = "";
+  for (let j = 0; j < 7; j++) {
+    day++;
+    if (day < 1 || day > 30) {
+      txt += `<td></td>`;
+    } else {
+      // here logic for background by class work
+
+      txt += `<td>${day}</td>`;
+    }
+  }
+
+  textCalend += start + txt + finish;
+}
+calend.innerHTML = weekCalend + textCalend;
