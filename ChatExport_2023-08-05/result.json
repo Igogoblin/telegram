@@ -139053,8 +139053,8 @@
    "type": "message",
    "date": "2023-09-30T16:03:21",
    "date_unixtime": "1696079001",
-   "edited": "2023-09-30T16:09:55",
-   "edited_unixtime": "1696079395",
+   "edited": "2023-10-01T11:50:02",
+   "edited_unixtime": "1696150202",
    "from": "Сансара",
    "from_id": "user6276121977",
    "photo": "(File not included. Change data exporting settings to download.)",
@@ -139088,8 +139088,8 @@
    "type": "message",
    "date": "2023-09-30T16:11:10",
    "date_unixtime": "1696079470",
-   "edited": "2023-09-30T18:55:27",
-   "edited_unixtime": "1696089327",
+   "edited": "2023-10-01T11:50:31",
+   "edited_unixtime": "1696150231",
    "from": "Сансара",
    "from_id": "user6276121977",
    "text": "Ты не представляешь, как я хохотала, когда эту картину увидела😁",
@@ -139097,6 +139097,1541 @@
     {
      "type": "plain",
      "text": "Ты не представляешь, как я хохотала, когда эту картину увидела😁"
+    }
+   ]
+  },
+  {
+   "id": 76253,
+   "type": "message",
+   "date": "2023-10-01T11:15:06",
+   "date_unixtime": "1696148106",
+   "from": "Ihar",
+   "from_id": "user498869700",
+   "text": "Выбил и запек меренгу",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Выбил и запек меренгу"
+    }
+   ]
+  },
+  {
+   "id": 76254,
+   "type": "message",
+   "date": "2023-10-01T11:15:13",
+   "date_unixtime": "1696148113",
+   "from": "Ihar",
+   "from_id": "user498869700",
+   "photo": "(File not included. Change data exporting settings to download.)",
+   "width": 598,
+   "height": 1280,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 76255,
+   "type": "message",
+   "date": "2023-10-01T11:15:13",
+   "date_unixtime": "1696148113",
+   "from": "Ihar",
+   "from_id": "user498869700",
+   "photo": "(File not included. Change data exporting settings to download.)",
+   "width": 598,
+   "height": 1280,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 76258,
+   "type": "message",
+   "date": "2023-10-01T11:50:43",
+   "date_unixtime": "1696150243",
+   "from": "Валерия",
+   "from_id": "user453815685",
+   "text": "Фига се",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Фига се"
+    }
+   ]
+  },
+  {
+   "id": 76261,
+   "type": "message",
+   "date": "2023-10-01T11:51:43",
+   "date_unixtime": "1696150303",
+   "from": "Валерия",
+   "from_id": "user453815685",
+   "text": "А крем делал? Или это будет съедено в таком виде?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "А крем делал? Или это будет съедено в таком виде?"
+    }
+   ]
+  },
+  {
+   "id": 76263,
+   "type": "message",
+   "date": "2023-10-01T12:07:35",
+   "date_unixtime": "1696151255",
+   "edited": "2023-10-01T12:18:43",
+   "edited_unixtime": "1696151923",
+   "from": "Валерия",
+   "from_id": "user453815685",
+   "photo": "(File not included. Change data exporting settings to download.)",
+   "width": 958,
+   "height": 1177,
+   "text": "Я сходила в свой \"экомаркет\" 😁 сегодня у меня в меню крылья в духовке и тушёные кабачки 😋",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Я сходила в свой \"экомаркет\" 😁 сегодня у меня в меню крылья в духовке и тушёные кабачки 😋"
+    }
+   ]
+  },
+  {
+   "id": 76264,
+   "type": "message",
+   "date": "2023-10-01T12:17:58",
+   "date_unixtime": "1696151878",
+   "from": "Ihar",
+   "from_id": "user498869700",
+   "reply_to_message_id": 76261,
+   "text": "Да. Уже завернуто)))",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Да. Уже завернуто)))"
+    }
+   ]
+  },
+  {
+   "id": 76265,
+   "type": "message",
+   "date": "2023-10-01T12:19:17",
+   "date_unixtime": "1696151957",
+   "from": "Валерия",
+   "from_id": "user453815685",
+   "reply_to_message_id": 76264,
+   "text": "О боже",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "О боже"
+    }
+   ]
+  },
+  {
+   "id": 76266,
+   "type": "message",
+   "date": "2023-10-01T12:19:24",
+   "date_unixtime": "1696151964",
+   "edited": "2023-10-01T12:19:38",
+   "edited_unixtime": "1696151978",
+   "from": "Валерия",
+   "from_id": "user453815685",
+   "text": "Тогда мы идём к вам",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Тогда мы идём к вам"
+    }
+   ]
+  },
+  {
+   "id": 76272,
+   "type": "message",
+   "date": "2023-10-01T21:28:55",
+   "date_unixtime": "1696184935",
+   "from": "Валерия",
+   "from_id": "user453815685",
+   "text": "Ну что там, снял пробу? 😋",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Ну что там, снял пробу? 😋"
+    }
+   ]
+  },
+  {
+   "id": 76273,
+   "type": "message",
+   "date": "2023-10-01T21:29:22",
+   "date_unixtime": "1696184962",
+   "from": "Ihar",
+   "from_id": "user498869700",
+   "text": "съедено))))",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "съедено))))"
+    }
+   ]
+  },
+  {
+   "id": 76274,
+   "type": "message",
+   "date": "2023-10-01T21:29:39",
+   "date_unixtime": "1696184979",
+   "from": "Валерия",
+   "from_id": "user453815685",
+   "text": "Можно не ехать значит",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Можно не ехать значит"
+    }
+   ]
+  },
+  {
+   "id": 76275,
+   "type": "message",
+   "date": "2023-10-01T21:29:40",
+   "date_unixtime": "1696184980",
+   "edited": "2023-10-01T21:29:49",
+   "edited_unixtime": "1696184989",
+   "from": "Ihar",
+   "from_id": "user498869700",
+   "text": "а твои крылышки тоже уже улетели?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "а твои крылышки тоже уже улетели?"
+    }
+   ]
+  },
+  {
+   "id": 76276,
+   "type": "message",
+   "date": "2023-10-01T21:29:53",
+   "date_unixtime": "1696184993",
+   "from": "Валерия",
+   "from_id": "user453815685",
+   "text": "Не все",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Не все"
+    }
+   ]
+  },
+  {
+   "id": 76277,
+   "type": "message",
+   "date": "2023-10-01T21:30:49",
+   "date_unixtime": "1696185049",
+   "from": "Валерия",
+   "from_id": "user453815685",
+   "text": "Парочку оставила, чтобы прилететь на меренгу",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Парочку оставила, чтобы прилететь на меренгу"
+    }
+   ]
+  },
+  {
+   "id": 76278,
+   "type": "message",
+   "date": "2023-10-01T21:30:59",
+   "date_unixtime": "1696185059",
+   "from": "Ihar",
+   "from_id": "user498869700",
+   "text": "разумно",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "разумно"
+    }
+   ]
+  },
+  {
+   "id": 76279,
+   "type": "message",
+   "date": "2023-10-01T21:31:05",
+   "date_unixtime": "1696185065",
+   "from": "Валерия",
+   "from_id": "user453815685",
+   "text": "Но увы, придётся доедать",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Но увы, придётся доедать"
+    }
+   ]
+  },
+  {
+   "id": 76280,
+   "type": "message",
+   "date": "2023-10-01T21:59:06",
+   "date_unixtime": "1696186746",
+   "from": "Сансара",
+   "from_id": "user6276121977",
+   "text": "Блин думаю чо за тишина в эфире🙄",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Блин думаю чо за тишина в эфире🙄"
+    }
+   ]
+  },
+  {
+   "id": 76281,
+   "type": "message",
+   "date": "2023-10-01T21:59:27",
+   "date_unixtime": "1696186767",
+   "from": "Сансара",
+   "from_id": "user6276121977",
+   "text": "А я оповещения включить забыла🤦‍♀",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "А я оповещения включить забыла🤦‍♀"
+    }
+   ]
+  },
+  {
+   "id": 76282,
+   "type": "message",
+   "date": "2023-10-01T21:59:46",
+   "date_unixtime": "1696186786",
+   "from": "Ihar",
+   "from_id": "user498869700",
+   "text": "уже можно и не включать - скоро ко сну",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "уже можно и не включать - скоро ко сну"
+    }
+   ]
+  },
+  {
+   "id": 76283,
+   "type": "message",
+   "date": "2023-10-01T22:00:14",
+   "date_unixtime": "1696186814",
+   "from": "Сансара",
+   "from_id": "user6276121977",
+   "text": "Да вот собралась и решила поворчать на вас за тишину",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Да вот собралась и решила поворчать на вас за тишину"
+    }
+   ]
+  },
+  {
+   "id": 76284,
+   "type": "message",
+   "date": "2023-10-01T22:00:26",
+   "date_unixtime": "1696186826",
+   "edited": "2023-10-01T22:00:39",
+   "edited_unixtime": "1696186839",
+   "from": "Сансара",
+   "from_id": "user6276121977",
+   "text": "А надо на себя ворчать😁",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "А надо на себя ворчать😁"
+    }
+   ]
+  },
+  {
+   "id": 76285,
+   "type": "message",
+   "date": "2023-10-01T22:01:21",
+   "date_unixtime": "1696186881",
+   "from": "Сансара",
+   "from_id": "user6276121977",
+   "text": "Ну все. Придётся саму себя в угол на горох ставить🙄",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Ну все. Придётся саму себя в угол на горох ставить🙄"
+    }
+   ]
+  },
+  {
+   "id": 76286,
+   "type": "message",
+   "date": "2023-10-01T22:01:32",
+   "date_unixtime": "1696186892",
+   "from": "Сансара",
+   "from_id": "user6276121977",
+   "text": "На всю ночь😁",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "На всю ночь😁"
+    }
+   ]
+  },
+  {
+   "id": 76287,
+   "type": "message",
+   "date": "2023-10-01T22:02:04",
+   "date_unixtime": "1696186924",
+   "edited": "2023-10-01T22:02:13",
+   "edited_unixtime": "1696186933",
+   "from": "Сансара",
+   "from_id": "user6276121977",
+   "text": "Ладно. Доброй ночи😘",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Ладно. Доброй ночи😘"
+    }
+   ]
+  },
+  {
+   "id": 76294,
+   "type": "message",
+   "date": "2023-10-02T15:25:59",
+   "date_unixtime": "1696249559",
+   "from": "Сансара",
+   "from_id": "user6276121977",
+   "text": "Привет самые болтливые люди в мире😁",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Привет самые болтливые люди в мире😁"
+    }
+   ]
+  },
+  {
+   "id": 76295,
+   "type": "message",
+   "date": "2023-10-02T15:27:29",
+   "date_unixtime": "1696249649",
+   "from": "Валерия",
+   "from_id": "user453815685",
+   "file": "(File not included. Change data exporting settings to download.)",
+   "thumbnail": "(File not included. Change data exporting settings to download.)",
+   "media_type": "sticker",
+   "sticker_emoji": "😘",
+   "width": 512,
+   "height": 512,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 76296,
+   "type": "message",
+   "date": "2023-10-02T15:27:56",
+   "date_unixtime": "1696249676",
+   "from": "Сансара",
+   "from_id": "user6276121977",
+   "text": "Лерусик😊",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Лерусик😊"
+    }
+   ]
+  },
+  {
+   "id": 76297,
+   "type": "message",
+   "date": "2023-10-02T15:28:03",
+   "date_unixtime": "1696249683",
+   "from": "Сансара",
+   "from_id": "user6276121977",
+   "file": "(File not included. Change data exporting settings to download.)",
+   "thumbnail": "(File not included. Change data exporting settings to download.)",
+   "media_type": "sticker",
+   "sticker_emoji": "😽",
+   "width": 512,
+   "height": 512,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 76298,
+   "type": "message",
+   "date": "2023-10-02T15:29:29",
+   "date_unixtime": "1696249769",
+   "from": "Валерия",
+   "from_id": "user453815685",
+   "file": "(File not included. Change data exporting settings to download.)",
+   "thumbnail": "(File not included. Change data exporting settings to download.)",
+   "media_type": "sticker",
+   "sticker_emoji": "😻",
+   "width": 512,
+   "height": 512,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 76299,
+   "type": "message",
+   "date": "2023-10-02T15:29:35",
+   "date_unixtime": "1696249775",
+   "from": "Валерия",
+   "from_id": "user453815685",
+   "text": "😁",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "😁"
+    }
+   ]
+  },
+  {
+   "id": 76300,
+   "type": "message",
+   "date": "2023-10-02T15:29:43",
+   "date_unixtime": "1696249783",
+   "from": "Сансара",
+   "from_id": "user6276121977",
+   "text": "😁😁😁",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "😁😁😁"
+    }
+   ]
+  },
+  {
+   "id": 76302,
+   "type": "message",
+   "date": "2023-10-02T15:44:36",
+   "date_unixtime": "1696250676",
+   "from": "Сансара",
+   "from_id": "user6276121977",
+   "file": "(File not included. Change data exporting settings to download.)",
+   "thumbnail": "(File not included. Change data exporting settings to download.)",
+   "media_type": "sticker",
+   "sticker_emoji": "😽",
+   "width": 512,
+   "height": 512,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 76303,
+   "type": "message",
+   "date": "2023-10-02T15:44:50",
+   "date_unixtime": "1696250690",
+   "from": "Сансара",
+   "from_id": "user6276121977",
+   "text": "Во какую нашла😁",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Во какую нашла😁"
+    }
+   ]
+  },
+  {
+   "id": 76309,
+   "type": "message",
+   "date": "2023-10-02T16:02:53",
+   "date_unixtime": "1696251773",
+   "from": "Валерия",
+   "from_id": "user453815685",
+   "file": "(File not included. Change data exporting settings to download.)",
+   "thumbnail": "(File not included. Change data exporting settings to download.)",
+   "media_type": "sticker",
+   "sticker_emoji": "😽",
+   "width": 512,
+   "height": 512,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 76310,
+   "type": "message",
+   "date": "2023-10-02T16:03:24",
+   "date_unixtime": "1696251804",
+   "from": "Сансара",
+   "from_id": "user6276121977",
+   "text": "Ща мы милорду устроим😁",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Ща мы милорду устроим😁"
+    }
+   ]
+  },
+  {
+   "id": 76312,
+   "type": "message",
+   "date": "2023-10-02T16:03:42",
+   "date_unixtime": "1696251822",
+   "from": "Сансара",
+   "from_id": "user6276121977",
+   "file": "(File not included. Change data exporting settings to download.)",
+   "thumbnail": "(File not included. Change data exporting settings to download.)",
+   "media_type": "sticker",
+   "sticker_emoji": "😍",
+   "width": 512,
+   "height": 512,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 76313,
+   "type": "message",
+   "date": "2023-10-02T16:03:44",
+   "date_unixtime": "1696251824",
+   "from": "Валерия",
+   "from_id": "user453815685",
+   "file": "(File not included. Change data exporting settings to download.)",
+   "thumbnail": "(File not included. Change data exporting settings to download.)",
+   "media_type": "sticker",
+   "sticker_emoji": "🤗",
+   "width": 512,
+   "height": 512,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 76314,
+   "type": "message",
+   "date": "2023-10-02T16:03:52",
+   "date_unixtime": "1696251832",
+   "from": "Сансара",
+   "from_id": "user6276121977",
+   "file": "(File not included. Change data exporting settings to download.)",
+   "thumbnail": "(File not included. Change data exporting settings to download.)",
+   "media_type": "sticker",
+   "sticker_emoji": "😽",
+   "width": 512,
+   "height": 512,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 76315,
+   "type": "message",
+   "date": "2023-10-02T16:04:00",
+   "date_unixtime": "1696251840",
+   "from": "Валерия",
+   "from_id": "user453815685",
+   "file": "(File not included. Change data exporting settings to download.)",
+   "thumbnail": "(File not included. Change data exporting settings to download.)",
+   "media_type": "sticker",
+   "sticker_emoji": "😽",
+   "width": 512,
+   "height": 512,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 76316,
+   "type": "message",
+   "date": "2023-10-02T16:04:05",
+   "date_unixtime": "1696251845",
+   "from": "Сансара",
+   "from_id": "user6276121977",
+   "file": "(File not included. Change data exporting settings to download.)",
+   "thumbnail": "(File not included. Change data exporting settings to download.)",
+   "media_type": "sticker",
+   "sticker_emoji": "😽",
+   "width": 512,
+   "height": 512,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 76317,
+   "type": "message",
+   "date": "2023-10-02T16:04:19",
+   "date_unixtime": "1696251859",
+   "from": "Сансара",
+   "from_id": "user6276121977",
+   "file": "(File not included. Change data exporting settings to download.)",
+   "thumbnail": "(File not included. Change data exporting settings to download.)",
+   "media_type": "sticker",
+   "sticker_emoji": "😽",
+   "width": 512,
+   "height": 512,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 76318,
+   "type": "message",
+   "date": "2023-10-02T16:04:30",
+   "date_unixtime": "1696251870",
+   "from": "Сансара",
+   "from_id": "user6276121977",
+   "file": "(File not included. Change data exporting settings to download.)",
+   "thumbnail": "(File not included. Change data exporting settings to download.)",
+   "media_type": "sticker",
+   "sticker_emoji": "😘",
+   "width": 512,
+   "height": 512,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 76320,
+   "type": "message",
+   "date": "2023-10-02T16:06:04",
+   "date_unixtime": "1696251964",
+   "from": "Сансара",
+   "from_id": "user6276121977",
+   "text": "Присоединяйтесь, барон, присоединяйсь😉",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Присоединяйтесь, барон, присоединяйсь😉"
+    }
+   ]
+  },
+  {
+   "id": 76321,
+   "type": "message",
+   "date": "2023-10-02T16:06:09",
+   "date_unixtime": "1696251969",
+   "from": "Ihar",
+   "from_id": "user498869700",
+   "text": "привет-привет",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "привет-привет"
+    }
+   ]
+  },
+  {
+   "id": 76322,
+   "type": "message",
+   "date": "2023-10-02T16:06:23",
+   "date_unixtime": "1696251983",
+   "from": "Сансара",
+   "from_id": "user6276121977",
+   "text": "Приветики",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Приветики"
+    }
+   ]
+  },
+  {
+   "id": 76323,
+   "type": "message",
+   "date": "2023-10-02T16:06:54",
+   "date_unixtime": "1696252014",
+   "from": "Сансара",
+   "from_id": "user6276121977",
+   "text": "Стандартный вопрос : как делишки? 😁",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Стандартный вопрос : как делишки? 😁"
+    }
+   ]
+  },
+  {
+   "id": 76324,
+   "type": "message",
+   "date": "2023-10-02T16:07:08",
+   "date_unixtime": "1696252028",
+   "from": "Ihar",
+   "from_id": "user498869700",
+   "text": "ну, норм",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "ну, норм"
+    }
+   ]
+  },
+  {
+   "id": 76325,
+   "type": "message",
+   "date": "2023-10-02T16:07:12",
+   "date_unixtime": "1696252032",
+   "from": "Ihar",
+   "from_id": "user498869700",
+   "text": "вы как?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "вы как?"
+    }
+   ]
+  },
+  {
+   "id": 76326,
+   "type": "message",
+   "date": "2023-10-02T16:07:23",
+   "date_unixtime": "1696252043",
+   "from": "Сансара",
+   "from_id": "user6276121977",
+   "reply_to_message_id": 76324,
+   "text": "Стандартный ответ😁",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Стандартный ответ😁"
+    }
+   ]
+  },
+  {
+   "id": 76327,
+   "type": "message",
+   "date": "2023-10-02T16:07:31",
+   "date_unixtime": "1696252051",
+   "from": "Ihar",
+   "from_id": "user498869700",
+   "text": "ага))",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "ага))"
+    }
+   ]
+  },
+  {
+   "id": 76328,
+   "type": "message",
+   "date": "2023-10-02T16:07:34",
+   "date_unixtime": "1696252054",
+   "from": "Сансара",
+   "from_id": "user6276121977",
+   "reply_to_message_id": 76325,
+   "text": "И послесловие😁",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "И послесловие😁"
+    }
+   ]
+  },
+  {
+   "id": 76329,
+   "type": "message",
+   "date": "2023-10-02T16:07:49",
+   "date_unixtime": "1696252069",
+   "from": "Сансара",
+   "from_id": "user6276121977",
+   "text": "Нормик. Живы😉",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Нормик. Живы😉"
+    }
+   ]
+  },
+  {
+   "id": 76330,
+   "type": "message",
+   "date": "2023-10-02T16:08:06",
+   "date_unixtime": "1696252086",
+   "from": "Ihar",
+   "from_id": "user498869700",
+   "text": "ну вот и хорошо))",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "ну вот и хорошо))"
+    }
+   ]
+  },
+  {
+   "id": 76331,
+   "type": "message",
+   "date": "2023-10-02T16:08:20",
+   "date_unixtime": "1696252100",
+   "edited": "2023-10-02T16:08:30",
+   "edited_unixtime": "1696252110",
+   "from": "Сансара",
+   "from_id": "user6276121977",
+   "text": "Вот и пообщались😂😂😂",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Вот и пообщались😂😂😂"
+    }
+   ]
+  },
+  {
+   "id": 76332,
+   "type": "message",
+   "date": "2023-10-02T16:08:50",
+   "date_unixtime": "1696252130",
+   "edited": "2023-10-02T16:09:48",
+   "edited_unixtime": "1696252188",
+   "from": "Сансара",
+   "from_id": "user6276121977",
+   "text": "Я кстати книжку дочитала",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Я кстати книжку дочитала"
+    }
+   ]
+  },
+  {
+   "id": 76333,
+   "type": "message",
+   "date": "2023-10-02T16:09:28",
+   "date_unixtime": "1696252168",
+   "from": "Ihar",
+   "from_id": "user498869700",
+   "text": [
+    "ого, это уже к ",
+    {
+     "type": "mention",
+     "text": "@Valeriya15r"
+    },
+    "  вопросы, она попросила меня подождать"
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "ого, это уже к "
+    },
+    {
+     "type": "mention",
+     "text": "@Valeriya15r"
+    },
+    {
+     "type": "plain",
+     "text": "  вопросы, она попросила меня подождать"
+    }
+   ]
+  },
+  {
+   "id": 76334,
+   "type": "message",
+   "date": "2023-10-02T16:09:48",
+   "date_unixtime": "1696252188",
+   "from": "Сансара",
+   "from_id": "user6276121977",
+   "text": "А ты прочитал?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "А ты прочитал?"
+    }
+   ]
+  },
+  {
+   "id": 76335,
+   "type": "message",
+   "date": "2023-10-02T16:09:54",
+   "date_unixtime": "1696252194",
+   "from": "Ihar",
+   "from_id": "user498869700",
+   "text": "не, жду",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "не, жду"
+    }
+   ]
+  },
+  {
+   "id": 76336,
+   "type": "message",
+   "date": "2023-10-02T16:10:04",
+   "date_unixtime": "1696252204",
+   "from": "Ihar",
+   "from_id": "user498869700",
+   "text": "теперь главное чтобы ты не забыла",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "теперь главное чтобы ты не забыла"
+    }
+   ]
+  },
+  {
+   "id": 76337,
+   "type": "message",
+   "date": "2023-10-02T16:10:35",
+   "date_unixtime": "1696252235",
+   "from": "Сансара",
+   "from_id": "user6276121977",
+   "text": "Так она моя собственная, всегда могу залезть в неё и вспомнить",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Так она моя собственная, всегда могу залезть в неё и вспомнить"
+    }
+   ]
+  },
+  {
+   "id": 76338,
+   "type": "message",
+   "date": "2023-10-02T16:11:00",
+   "date_unixtime": "1696252260",
+   "edited": "2023-10-02T16:11:09",
+   "edited_unixtime": "1696252269",
+   "from": "Сансара",
+   "from_id": "user6276121977",
+   "text": "Я тогда сейчас женскую порнушку почитаю🙊😂",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Я тогда сейчас женскую порнушку почитаю🙊😂"
+    }
+   ]
+  },
+  {
+   "id": 76339,
+   "type": "message",
+   "date": "2023-10-02T16:11:01",
+   "date_unixtime": "1696252261",
+   "from": "Ihar",
+   "from_id": "user498869700",
+   "text": "аа, хорошо тогда, было бы интересно обсудить,",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "аа, хорошо тогда, было бы интересно обсудить,"
+    }
+   ]
+  },
+  {
+   "id": 76340,
+   "type": "message",
+   "date": "2023-10-02T16:11:36",
+   "date_unixtime": "1696252296",
+   "from": "Сансара",
+   "from_id": "user6276121977",
+   "text": "Никогда не попадалась Бертрис Смол?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Никогда не попадалась Бертрис Смол?"
+    }
+   ]
+  },
+  {
+   "id": 76341,
+   "type": "message",
+   "date": "2023-10-02T16:11:46",
+   "date_unixtime": "1696252306",
+   "from": "Ihar",
+   "from_id": "user498869700",
+   "text": "не помню",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "не помню"
+    }
+   ]
+  },
+  {
+   "id": 76342,
+   "type": "message",
+   "date": "2023-10-02T16:11:59",
+   "date_unixtime": "1696252319",
+   "from": "Сансара",
+   "from_id": "user6276121977",
+   "text": "А нет. Эта другая",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "А нет. Эта другая"
+    }
+   ]
+  },
+  {
+   "id": 76343,
+   "type": "message",
+   "date": "2023-10-02T16:13:20",
+   "date_unixtime": "1696252400",
+   "from": "Сансара",
+   "from_id": "user6276121977",
+   "reply_to_message_id": 76341,
+   "text": "И не берись искать. Чисто женское чтиво. Мама её обожает, поэтому я перечитала горы её книжонок, мама их просто скупала в своё время",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "И не берись искать. Чисто женское чтиво. Мама её обожает, поэтому я перечитала горы её книжонок, мама их просто скупала в своё время"
+    }
+   ]
+  },
+  {
+   "id": 76344,
+   "type": "message",
+   "date": "2023-10-02T16:13:37",
+   "date_unixtime": "1696252417",
+   "from": "Ihar",
+   "from_id": "user498869700",
+   "text": "хорошо))))",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "хорошо))))"
+    }
+   ]
+  },
+  {
+   "id": 76345,
+   "type": "message",
+   "date": "2023-10-02T16:14:08",
+   "date_unixtime": "1696252448",
+   "from": "Сансара",
+   "from_id": "user6276121977",
+   "text": "Хотя по ним я немного стала разбираться в истории Великобритании.",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Хотя по ним я немного стала разбираться в истории Великобритании."
+    }
+   ]
+  },
+  {
+   "id": 76346,
+   "type": "message",
+   "date": "2023-10-02T16:16:38",
+   "date_unixtime": "1696252598",
+   "from": "Сансара",
+   "from_id": "user6276121977",
+   "photo": "(File not included. Change data exporting settings to download.)",
+   "width": 960,
+   "height": 1280,
+   "text": "А сейчас эта будет. Тоже из маминой библиотеки. Тоже любовь до гроба😁 ну и все сопутствующие телодвижения🤭",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "А сейчас эта будет. Тоже из маминой библиотеки. Тоже любовь до гроба😁 ну и все сопутствующие телодвижения🤭"
+    }
+   ]
+  },
+  {
+   "id": 76347,
+   "type": "message",
+   "date": "2023-10-02T16:17:26",
+   "date_unixtime": "1696252646",
+   "from": "Валерия",
+   "from_id": "user453815685",
+   "text": "У нас была коллекция Даниэллы Стилл😁из этих серий",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "У нас была коллекция Даниэллы Стилл😁из этих серий"
+    }
+   ]
+  },
+  {
+   "id": 76348,
+   "type": "message",
+   "date": "2023-10-02T16:17:49",
+   "date_unixtime": "1696252669",
+   "from": "Валерия",
+   "from_id": "user453815685",
+   "reply_to_message_id": 76333,
+   "text": "🫣Прошу принять простить",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "🫣Прошу принять простить"
+    }
+   ]
+  },
+  {
+   "id": 76349,
+   "type": "message",
+   "date": "2023-10-02T16:18:25",
+   "date_unixtime": "1696252705",
+   "from": "Сансара",
+   "from_id": "user6276121977",
+   "text": "Леруся, не парься. Все всë понимают😘",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Леруся, не парься. Все всë понимают😘"
+    }
+   ]
+  },
+  {
+   "id": 76350,
+   "type": "message",
+   "date": "2023-10-02T16:18:42",
+   "date_unixtime": "1696252722",
+   "edited": "2023-10-02T16:20:25",
+   "edited_unixtime": "1696252825",
+   "from": "Сансара",
+   "from_id": "user6276121977",
+   "text": "Взрослые люди",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Взрослые люди"
+    }
+   ]
+  },
+  {
+   "id": 76488,
+   "type": "message",
+   "date": "2023-10-04T17:31:36",
+   "date_unixtime": "1696429896",
+   "from": "Ihar",
+   "from_id": "user498869700",
+   "text": "или нет",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "или нет"
+    }
+   ]
+  },
+  {
+   "id": 76489,
+   "type": "message",
+   "date": "2023-10-04T17:31:53",
+   "date_unixtime": "1696429913",
+   "from": "Сансара",
+   "from_id": "user6276121977",
+   "text": "О блин",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "О блин"
+    }
+   ]
+  },
+  {
+   "id": 76490,
+   "type": "message",
+   "date": "2023-10-04T17:32:01",
+   "date_unixtime": "1696429921",
+   "from": "Сансара",
+   "from_id": "user6276121977",
+   "text": "Я думала вымерли",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Я думала вымерли"
+    }
+   ]
+  },
+  {
+   "id": 76491,
+   "type": "message",
+   "date": "2023-10-04T17:32:08",
+   "date_unixtime": "1696429928",
+   "from": "Сансара",
+   "from_id": "user6276121977",
+   "text": "Как мамонты😁",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Как мамонты😁"
+    }
+   ]
+  },
+  {
+   "id": 76492,
+   "type": "message",
+   "date": "2023-10-04T17:32:39",
+   "date_unixtime": "1696429959",
+   "from": "Ihar",
+   "from_id": "user498869700",
+   "text": "ага, висит чат как рудимент",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "ага, висит чат как рудимент"
+    }
+   ]
+  },
+  {
+   "id": 76493,
+   "type": "message",
+   "date": "2023-10-04T17:33:22",
+   "date_unixtime": "1696430002",
+   "from": "Сансара",
+   "from_id": "user6276121977",
+   "text": "Милорд, связь сегодня отвратительная в соцсетях",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Милорд, связь сегодня отвратительная в соцсетях"
+    }
+   ]
+  },
+  {
+   "id": 76495,
+   "type": "message",
+   "date": "2023-10-04T17:33:57",
+   "date_unixtime": "1696430037",
+   "from": "Сансара",
+   "from_id": "user6276121977",
+   "text": "Я в игре сначало зову, чтобы меня в сапе или вайбере увидели",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Я в игре сначало зову, чтобы меня в сапе или вайбере увидели"
+    }
+   ]
+  },
+  {
+   "id": 76496,
+   "type": "message",
+   "date": "2023-10-04T17:34:17",
+   "date_unixtime": "1696430057",
+   "from": "Сансара",
+   "from_id": "user6276121977",
+   "text": "Да и в тг такая же фигня",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Да и в тг такая же фигня"
+    }
+   ]
+  },
+  {
+   "id": 76497,
+   "type": "message",
+   "date": "2023-10-04T17:43:38",
+   "date_unixtime": "1696430618",
+   "from": "Ihar",
+   "from_id": "user498869700",
+   "text": "Странно",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Странно"
+    }
+   ]
+  },
+  {
+   "id": 76498,
+   "type": "message",
+   "date": "2023-10-04T17:44:10",
+   "date_unixtime": "1696430650",
+   "from": "Сансара",
+   "from_id": "user6276121977",
+   "text": "Угу",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Угу"
+    }
+   ]
+  },
+  {
+   "id": 76500,
+   "type": "message",
+   "date": "2023-10-04T18:16:37",
+   "date_unixtime": "1696432597",
+   "from": "Сансара",
+   "from_id": "user6276121977",
+   "photo": "(File not included. Change data exporting settings to download.)",
+   "width": 960,
+   "height": 1280,
+   "text": "А у нас вот чо",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "А у нас вот чо"
+    }
+   ]
+  },
+  {
+   "id": 76501,
+   "type": "message",
+   "date": "2023-10-04T18:16:46",
+   "date_unixtime": "1696432606",
+   "from": "Сансара",
+   "from_id": "user6276121977",
+   "text": "Др у мелкой",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Др у мелкой"
+    }
+   ]
+  },
+  {
+   "id": 76502,
+   "type": "message",
+   "date": "2023-10-04T18:17:25",
+   "date_unixtime": "1696432645",
+   "from": "Сансара",
+   "from_id": "user6276121977",
+   "photo": "(File not included. Change data exporting settings to download.)",
+   "width": 960,
+   "height": 1280,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 76503,
+   "type": "message",
+   "date": "2023-10-04T18:17:25",
+   "date_unixtime": "1696432645",
+   "from": "Сансара",
+   "from_id": "user6276121977",
+   "photo": "(File not included. Change data exporting settings to download.)",
+   "width": 960,
+   "height": 1280,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 76504,
+   "type": "message",
+   "date": "2023-10-04T18:17:25",
+   "date_unixtime": "1696432645",
+   "from": "Сансара",
+   "from_id": "user6276121977",
+   "photo": "(File not included. Change data exporting settings to download.)",
+   "width": 960,
+   "height": 1280,
+   "text": "В кондитерской была",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "В кондитерской была"
+    }
+   ]
+  },
+  {
+   "id": 76505,
+   "type": "message",
+   "date": "2023-10-04T19:43:11",
+   "date_unixtime": "1696437791",
+   "from": "Сансара",
+   "from_id": "user6276121977",
+   "photo": "(File not included. Change data exporting settings to download.)",
+   "width": 591,
+   "height": 1280,
+   "text": "Вот примерно таких дракончиков хочу. Выкройку найти не могу. Придётся самой эксперементировать",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Вот примерно таких дракончиков хочу. Выкройку найти не могу. Придётся самой эксперементировать"
+    }
+   ]
+  },
+  {
+   "id": 76506,
+   "type": "message",
+   "date": "2023-10-04T19:44:25",
+   "date_unixtime": "1696437865",
+   "edited": "2023-10-04T19:48:47",
+   "edited_unixtime": "1696438127",
+   "from": "Сансара",
+   "from_id": "user6276121977",
+   "photo": "(File not included. Change data exporting settings to download.)",
+   "width": 591,
+   "height": 1280,
+   "text": "А вот тут я афигела. Почти 1.5т просят на озоне за этого симпотяжку",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "А вот тут я афигела. Почти 1.5т просят на озоне за этого симпотяжку"
+    }
+   ]
+  },
+  {
+   "id": 76507,
+   "type": "message",
+   "date": "2023-10-04T19:44:58",
+   "date_unixtime": "1696437898",
+   "from": "Сансара",
+   "from_id": "user6276121977",
+   "text": "Ну понятно, вымерли🙄 мамонты...",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Ну понятно, вымерли🙄 мамонты..."
+    }
+   ]
+  },
+  {
+   "id": 76508,
+   "type": "message",
+   "date": "2023-10-04T19:45:35",
+   "date_unixtime": "1696437935",
+   "from": "Сансара",
+   "from_id": "user6276121977",
+   "text": "Или у меня опять фигня с соцсетями🤦‍♀",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Или у меня опять фигня с соцсетями🤦‍♀"
+    }
+   ]
+  },
+  {
+   "id": 76509,
+   "type": "message",
+   "date": "2023-10-04T19:58:57",
+   "date_unixtime": "1696438737",
+   "from": "Ihar",
+   "from_id": "user498869700",
+   "text": "ого вкусняхи какие",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "ого вкусняхи какие"
+    }
+   ]
+  },
+  {
+   "id": 76510,
+   "type": "message",
+   "date": "2023-10-04T19:59:49",
+   "date_unixtime": "1696438789",
+   "from": "Ihar",
+   "from_id": "user498869700",
+   "text": "я пошел ужин готовить, ну и есть его)))",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "я пошел ужин готовить, ну и есть его)))"
+    }
+   ]
+  },
+  {
+   "id": 76511,
+   "type": "message",
+   "date": "2023-10-04T20:00:00",
+   "date_unixtime": "1696438800",
+   "from": "Ihar",
+   "from_id": "user498869700",
+   "text": "поэтому был занят",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "поэтому был занят"
+    }
+   ]
+  },
+  {
+   "id": 76512,
+   "type": "message",
+   "date": "2023-10-04T20:00:08",
+   "date_unixtime": "1696438808",
+   "from": "Сансара",
+   "from_id": "user6276121977",
+   "reply_to_message_id": 76509,
+   "text": "Ага. А мои только ярославский берут. Он медовик.",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Ага. А мои только ярославский берут. Он медовик."
+    }
+   ]
+  },
+  {
+   "id": 76513,
+   "type": "message",
+   "date": "2023-10-04T20:00:18",
+   "date_unixtime": "1696438818",
+   "from": "Сансара",
+   "from_id": "user6276121977",
+   "reply_to_message_id": 76511,
+   "text": "Понятно",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Понятно"
     }
    ]
   }
