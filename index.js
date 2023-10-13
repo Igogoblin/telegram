@@ -383,8 +383,9 @@ const calend = document.querySelector(".calend");
 let textCalend = "";
 let weekCalend =
   "<tr><td>пн</td><td>вт</td><td>ср</td><td>чт</td><td>пт</td><td>сб</td><td>вс</td></tr>";
-let day = -5;
-
+let day = -6;
+let first = 2;
+let second = 3;
 for (let i = 0; i < 5; i++) {
   let start = "<tr>";
   let finish = "</tr>";
@@ -395,8 +396,15 @@ for (let i = 0; i < 5; i++) {
       txt += `<td></td>`;
     } else {
       // here logic for background by class work
-
-      txt += `<td>${day}</td>`;
+      if (day === first) {
+        txt += `<td class=work>${day}</td>`;
+        first += 4;
+      } else if (day === second) {
+        txt += `<td class=work>${day}</td>`;
+        second += 4;
+      } else {
+        txt += `<td>${day}</td>`;
+      }
     }
   }
 
