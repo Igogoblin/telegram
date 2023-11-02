@@ -379,13 +379,16 @@ console.log("faforite literal", val.allLiteral);
 console.log("faforite literal", ih.allLiteral);
 console.log("faforite literal", sans.allLiteral);
 
+let date = new Date();
+console.log(date.getDate());
+
 const calend = document.querySelector(".calend");
 let textCalend = "";
 let weekCalend =
   "<tr><td>пн</td><td>вт</td><td>ср</td><td>чт</td><td>пт</td><td>сб</td><td>вс</td></tr>";
-let day = -6;
-let first = 2;
-let second = 3;
+let day = -2;
+let first = 3;
+let second = 4;
 for (let i = 0; i < 5; i++) {
   let start = "<tr>";
   let finish = "</tr>";
@@ -411,3 +414,9 @@ for (let i = 0; i < 5; i++) {
   textCalend += start + txt + finish;
 }
 calend.innerHTML = weekCalend + textCalend;
+let my = document.querySelectorAll(".calend td");
+for (let m of my) {
+  if (m.textContent == date.getDate()) {
+    m.classList.add("today");
+  }
+}
