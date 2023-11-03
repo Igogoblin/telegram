@@ -98,3 +98,6 @@ img {
 .work {
   background-color: bisque;
 }
+.today {
+  border: 3px solid green;
+}
