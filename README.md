@@ -1,4 +1,4 @@
 # telegram
 ## it is statistic some groupe
-### deploy 
+### Deploy: 
 https://igogoblin.github.io/telegram/
